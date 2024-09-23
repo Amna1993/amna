@@ -6,9 +6,12 @@ import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
 import { FaUser, FaFolderOpen } from 'react-icons/fa';
-import { makeStyles } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import CloseIcon from '@material-ui/icons/Close';
+import { makeStyles } from '@mui/styles';
+
+import Drawer from '@mui/material/Drawer';
+
+import CloseIcon from '@mui/icons-material/Close';
+
 
 import './Navbar.css';
 import { headerData } from '../../data/headerData';
